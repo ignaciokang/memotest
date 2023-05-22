@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/memotest/static/css/main.8f61a5fc.css",
+    "main.js": "/memotest/static/js/main.a40ad42c.js",
+    "static/media/fondo1.png": "/memotest/static/media/fondo1.67ad6df5a6db7c12fd83.png",
+    "static/media/fondo2.png": "/memotest/static/media/fondo2.df43b1afcb2614baf4d1.png",
+    "static/media/back.png": "/memotest/static/media/back.1a2df1c505e69b1aa665.png",
+    "static/media/dibu.png": "/memotest/static/media/dibu.2d1a13a35521972ae58f.png",
+    "static/media/otamendi.png": "/memotest/static/media/otamendi.b6cc6f0516ffc48c2949.png",
+    "static/media/depaul.png": "/memotest/static/media/depaul.e513caf52f84ec7a066c.png",
+    "static/media/messi.png": "/memotest/static/media/messi.40bedcba0a955ae1e04f.png",
+    "static/media/fideo.png": "/memotest/static/media/fideo.313fba9782b559237497.png",
+    "static/media/dybala.png": "/memotest/static/media/dybala.cd86f92f57645be0d8a0.png",
+    "static/media/paredes.png": "/memotest/static/media/paredes.424af1aa6849ecd54dc0.png",
+    "static/media/scaloni.png": "/memotest/static/media/scaloni.20e49021f8339566b006.png",
+    "static/media/adicup-q-2022.ttf": "/memotest/static/media/adicup-q-2022.47cb1a2d94e11b76de57.ttf",
+    "static/media/fotoPerfil.png": "/memotest/static/media/fotoPerfil.f5ff96393e7aaf78f8bc.png",
+    "index.html": "/memotest/index.html",
+    "main.8f61a5fc.css.map": "/memotest/static/css/main.8f61a5fc.css.map",
+    "main.a40ad42c.js.map": "/memotest/static/js/main.a40ad42c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f61a5fc.css",
+    "static/js/main.a40ad42c.js"
+  ]
+}
