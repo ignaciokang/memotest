@@ -3,24 +3,10 @@
 	src: local('adicup-q-2022'),
 		url('./components/fonts/adicup-q-2022.ttf') format('truetype');
 }
-
-* {
-	font-family: 'Adidas';
-	margin: 0;
-}
-
-.principal {
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-	padding: 2rem 0rem;
-	/* overflow: hidden; */
-}
-
 h1 {
+	margin-top: 1rem;
 	text-align: center;
-	font-size: 4rem;
+	font-size: 2rem;
 	background: linear-gradient(
 		to top,
 		#5cc2e8 33%,
@@ -28,32 +14,30 @@ h1 {
 		#5cc2e8 66% 100%
 	);
 }
-
-button {
-	font-size: 2rem;
-	width: 20%;
-	background-color: gold;
-	margin: 0 auto;
-	border: 0;
-	padding: 1rem;
-	border-radius: 4px;
-	cursor: pointer;
-	box-shadow: 5px 5px 10px 0px rgb(0 0 0 / 50%);
-}
-
-button:hover {
-	background-color: rgb(255, 187, 0);
-	transition: linear all 0.5s;
-}
-
-.central {
-	display: grid;
-	grid-template-columns: 30% 40% 30%;
-	align-items: center;
+* {
+	font-family: 'Adidas';
+	margin: 0;
 }
 
 .central img {
-	width: 100%;
+	display: none;
+}
+
+.principal {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	overflow: hidden;
+	gap: 1rem;
+	/* padding: 1rem; */
+	/* overflow: hidden; */
+	/* background: url(./img/fondo1.png);
+	background-size: cover; */
+}
+
+.central {
+	padding: 0rem 1rem;
 }
 
 .footer {
@@ -73,33 +57,123 @@ button:hover {
 }
 
 .nombre p {
-	font-size: 2rem;
+	font-size: 1rem;
 }
 
 .footer img {
-	width: 120px;
-	height: 120px;
+	width: 75px;
+	height: 75px;
 	border-radius: 50%;
 	padding: 2rem;
 }
 
-.iconos {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: white;
-	gap: 2rem;
+#whatsapp,
+#github {
+	display: none;
 }
 
 .iconos a {
 	color: white;
 }
 
-.iconos a:hover {
+button {
+	font-size: 1.5rem;
+	width: 60%;
+	background-color: gold;
+	margin: 0 auto;
+	border: 0;
+	padding: 1rem;
+	border-radius: 4px;
 	cursor: pointer;
-	color: #5cc2e8;
+	box-shadow: 5px 5px 10px 0px rgb(0 0 0 / 50%);
 }
 
-.iconos a:active {
-	color: blue;
+@media screen and (min-width: 993px) {
+	* {
+		font-family: 'Adidas';
+		margin: 0;
+	}
+
+	h1 {
+		margin: 0;
+	}
+
+	.central img {
+		display: block;
+	}
+
+	.principal {
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		padding: 2rem 0rem;
+		overflow: visible;
+	}
+
+	h1 {
+		font-size: 3.5rem;
+	}
+
+	button {
+		font-size: 2rem;
+		width: 20%;
+		background-color: gold;
+		margin: 0 auto;
+		border: 0;
+		padding: 1rem;
+		border-radius: 4px;
+		cursor: pointer;
+		box-shadow: 5px 5px 10px 0px rgb(0 0 0 / 50%);
+	}
+
+	button:hover {
+		background-color: rgb(255, 187, 0);
+		transition: linear all 0.5s;
+	}
+
+	.central {
+		display: grid;
+		grid-template-columns: 30% 40% 30%;
+		align-items: center;
+	}
+
+	.central img {
+		width: 100%;
+	}
+
+	.nombre p {
+		font-size: 2rem;
+	}
+
+	.iconos {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		gap: 2rem;
+	}
+
+	.iconos a {
+		color: white;
+	}
+
+	.iconos a:hover {
+		cursor: pointer;
+		color: #5cc2e8;
+	}
+
+	.iconos a:active {
+		color: blue;
+	}
+
+	.footer img {
+		width: 100px;
+		height: 100px;
+	}
+
+	#whatsapp,
+	#github {
+		display: block;
+	}
 }

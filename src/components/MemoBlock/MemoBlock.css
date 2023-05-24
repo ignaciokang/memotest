@@ -54,6 +54,7 @@
 	position: absolute;
 	top: 0;
 	z-index: 0;
+	display: block;
 }
 
 .memo-block-back p {
@@ -65,10 +66,17 @@
 	width: 100%;
 	color: black;
 	background: #5cc2e8;
-	padding: 0.5rem;
-	font-size: 1.2rem;
+	font-size: 1rem;
+	padding: 0.2rem 0rem;
 }
 
 * {
 	font-size: 10px;
+}
+
+@media screen and (min-width: 993px) {
+	.memo-block-back p {
+		padding: 0.5rem;
+		font-size: 1.2rem;
+	}
 }

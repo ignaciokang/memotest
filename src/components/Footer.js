@@ -14,13 +14,13 @@ export const Footer = () => {
 			</div>
 			<div className="iconos">
 				<a href="https://wa.me/541136976191">
-					<IoLogoWhatsapp size={40} />
+					<IoLogoWhatsapp size={40} id="whatsapp" />
 				</a>
 				<a href="https://www.linkedin.com/in/ignaciokang/">
-					<AiFillLinkedin size={40} />
+					<AiFillLinkedin size={40} id="linkedin" />
 				</a>
 				<a href="https://github.com/ignaciokang/CV">
-					<AiFillGithub size={40} />{' '}
+					<AiFillGithub size={40} id="github" />{' '}
 				</a>
 			</div>
 		</div>
